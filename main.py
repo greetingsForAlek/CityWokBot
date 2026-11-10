@@ -27,24 +27,24 @@ async def on_ready():
 async def menu(interaction: discord.Interaction):
     embed = discord.Embed(
         title="City Wok",
-        description="Herro, Wercome to City Wok, Take ur order pree?",
+        description="Herro, Wercome to City Wok, Take ur order pree?\n\n",
         color=discord.Color.orange()
     )
 
     embed.add_field(
-        name="City Mains",
+        name="__City Mains__\n\n",
         value="**City Chicken** - 12 Dorrar\n**City Beef** - 15 Dorrar\n**City Shrimp** - 11 Dorrar\n**Super Spicy City Shrimp** - 26 Dorrar\n**City Teriyaki Chicken** - 24 Dorrar\n**City Sweet and Sour Pork** - 20 Dorrar\n**City Hot and Sour Soup** - 20 Dorrar",
         inline=False,
     )
 
     embed.add_field(
-        name="City Sides",
+        name="__City Sides__\n\n",
         value="**City Rice** - 5 Dorrar\nYe dats all we got",
         inline=False,
     )
 
     embed.add_field(
-        name="City Merchandise",
+        name="__City Merchandise__\n\n",
         value="***City Suit*** - 32 Dorrar\n***City Headband*** - 20 Dorrar\n***City Wristband*** - 42 Dorrar",
         inline=False,
     )
